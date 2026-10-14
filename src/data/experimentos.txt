@@ -1,0 +1,62 @@
+A. INTERVALO INICIAL (iteraciones)
+funcion, intervalo, biseccion, falsa_posicion
+polinomica, [1; 2], 20, 12
+polinomica, [1.4; 1.6], 18, 5
+polinomica, [0; 5], 23, 75
+polinomica, [-10; 10], 25, no converge
+polinomica, [1; 100], 27, no converge
+exponencial, [0; 1], 20, 7
+exponencial, [0.5; 0.6], 16, 3
+exponencial, [-5; 5], 22, no converge
+exponencial, [0; 100], 26, 8
+
+B. ESTIMACION INICIAL x0 (iteraciones)
+funcion, x0, punto_fijo, secante, newton, newton_mejorado
+polinomica, 1.5, 7, 3, 2, 2
+polinomica, 1, 8, 6, 5, 5
+polinomica, 3, 9, 7, 5, 6
+polinomica, 10, 9, 12, 9, 8
+polinomica, 0.5, 9, 28, 37, 28
+polinomica, 0, 9, 9, 30, 4
+trigonometrica, 0.5, 33, 3, 3, 3
+trigonometrica, 2, 34, 4, 3, 4
+trigonometrica, 3, 34, 7, 5, 5
+trigonometrica, 4, 31, 7, 38, 7
+trigonometrica, 10, 32, 7, 92, 21
+trigonometrica, -3, 34, 7, no converge, 9
+mixta, 0.5, 4, 3, 2, 2
+mixta, 0.1, 3, 4, 3, no converge
+mixta, 0.01, 4, 5, 4, no converge
+mixta, 2, 5, 4, 3, 4
+mixta, 5, 6, no converge, no converge, no converge
+raiz_doble, 1.2, no converge, 14, 10, 1
+raiz_doble, 0, no converge, 16, 11, 1
+raiz_doble, 3, no converge, 15, 10, 1
+raiz_doble, 10, no converge, 19, 13, 1
+
+C. ORDEN DE CONVERGENCIA ESTIMADO (tol = 1e-13)
+funcion, metodo, iteraciones, orden_estimado, razon_final
+polinomica, biseccion, 44, 0.48, 0.020
+polinomica, falsa_posicion, 25, 1.00, 0.290
+polinomica, punto_fijo, 15, 1.00, 0.145
+polinomica, secante, 5, 1.92, 0.000
+polinomica, newton, 3, 2.00, 0.000
+polinomica, newton_mejorado, 3, 2.00, 0.000
+exponencial, biseccion, 42, -0.12, 0.261
+exponencial, falsa_posicion, 14, 1.00, 0.111
+exponencial, punto_fijo, 49, 1.00, 0.566
+exponencial, secante, 4, 1.86, 0.000
+exponencial, newton, 3, 2.00, 0.000
+exponencial, newton_mejorado, 3, 2.00, 0.000
+trigonometrica, biseccion, 41, -0.05, 0.102
+trigonometrica, falsa_posicion, 11, 1.00, 0.050
+trigonometrica, punto_fijo, 74, 1.00, 0.674
+trigonometrica, secante, 5, 1.69, 0.000
+trigonometrica, newton, 4, 2.00, 0.000
+trigonometrica, newton_mejorado, 4, 2.01, 0.000
+logaritmica, biseccion, 40, -0.09, 0.063
+logaritmica, falsa_posicion, 10, 1.00, 0.045
+logaritmica, punto_fijo, 28, 1.00, 0.346
+logaritmica, secante, 5, 1.72, 0.000
+logaritmica, newton, 4, 2.00, 0.000
+logaritmica, newton_mejorado, 4, 2.00, 0.000
