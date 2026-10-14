@@ -1,7 +1,7 @@
 # Evaluación 2 — La raíz que se esconde
 
-**Universidad Católica del Maule — Computación Numérica (INF323)**
-
+**Universidad Católica del Maule — Computación Numérica (INF323)** \
+**Profesor:** Juan Cabezas Contardo \
 **Integrante:** Alonso Javier Vergara Quiroz - 21.825.897-2
 
 ### ¿Qué método convergió en menos iteraciones en cada función? ¿Por qué?
